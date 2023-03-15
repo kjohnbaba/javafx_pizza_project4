@@ -1,0 +1,15 @@
+Order #1. 
+BBQ Chicken (Chicago Style - PAN), [BBQCHICKEN, GREENPEPPER, PROVOLONE, CHEDDAR], SMALL $13.99
+
+Order Total: $14.92
+Order #2. 
+Meatzza (New York Style - HANDTOSSED), [SAUSAGE, PEPPERONI, BEEF, HAM], SMALL $15.99
+Meatzza (New York Style - HANDTOSSED), [SAUSAGE, PEPPERONI, BEEF, HAM], SMALL $15.99
+
+Order Total: $34.1
+Order #3. 
+Meatzza (Chicago Style - STUFFED), [SAUSAGE, PEPPERONI, BEEF, HAM], SMALL $15.99
+Meatzza (Chicago Style - STUFFED), [SAUSAGE, PEPPERONI, BEEF, HAM], SMALL $15.99
+Meatzza (Chicago Style - STUFFED), [SAUSAGE, PEPPERONI, BEEF, HAM], SMALL $15.99
+
+Order Total: $51.15

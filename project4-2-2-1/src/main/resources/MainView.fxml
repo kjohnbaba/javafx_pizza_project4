@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectfour.ProjectFourController">
+   <top>
+      <Label text="RU PIZZA" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="Abel Regular" size="48.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox alignment="CENTER" prefHeight="155.0" prefWidth="325.0">
+               <children>
+                  <ImageView fitHeight="200.0" fitWidth="250.0" onMouseClicked="#startChicago" pickOnBounds="true">
+                     <image>
+                        <Image url="@chicagopizza.jpeg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="-5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Chicago Style Pizza">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="155.0" prefWidth="325.0" GridPane.columnIndex="1">
+               <children>
+                  <ImageView fitHeight="200.0" fitWidth="250.0" onMouseClicked="#startNewYork" pickOnBounds="true">
+                     <image>
+                        <Image url="@nypizza.jpeg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="-5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="New York Style Pizza">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="155.0" prefWidth="325.0" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fitHeight="200.0" fitWidth="250.0" onMouseClicked="#startStoreOrders" pickOnBounds="true">
+                     <image>
+                        <Image url="@storeorders.jpeg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="-5.0" />
+                     </VBox.margin>
+                     <viewport>
+                        <Rectangle2D width="400.0" />
+                     </viewport>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Store Orders">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="155.0" prefWidth="325.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fitHeight="200.0" fitWidth="250.0" onMouseClicked="#startCurrentOrder" pickOnBounds="true">
+                     <image>
+                        <Image url="@currentorder.jpeg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="-5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Current Order">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

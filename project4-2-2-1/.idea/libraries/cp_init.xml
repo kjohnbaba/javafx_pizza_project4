@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cp_init">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/caches/jars-9/9e73a563f6c952b6df85f4a52e57b476/cp_init.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
