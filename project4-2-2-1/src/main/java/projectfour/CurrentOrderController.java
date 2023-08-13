@@ -17,7 +17,7 @@ import java.util.ResourceBundle;
  * order as well as removing certain pizzas, cancelling the order and
  * placing the order.
  *
- * @author Jaspreet Kaur, Kerimcan Baba
+ * @author Kerimcan Baba
  */
 public class CurrentOrderController implements Initializable {
 
