@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
  * pizza window. This class will create pizza orders of Chicago
  * style pizzas and add to the current order.
  *
- * @author Jaspreet Kaur, Kerimcan Baba
+ * @author Kerimcan Baba
  */
 public class ChicagoPizzaController implements Initializable{
 
