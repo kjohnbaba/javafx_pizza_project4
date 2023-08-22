@@ -12,7 +12,7 @@ import java.util.ResourceBundle;
  * all orders placed by users and has features such as removing
  * an order or exporting all orders to a text file.
  *
- * @author Jaspreet Kaur, Kerimcan Baba
+ * @author Kerimcan Baba
  */
 public class StoreOrdersController implements Initializable {
     @FXML
