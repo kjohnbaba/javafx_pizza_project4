@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * storing Order objects into an StoreOrder object and exporting
  * the orders.
  *
- * @author Jaspreet Kaur, Kerimcan Baba
+ * @author Kerimcan Baba
  */
 
 public class StoreOrder implements Customizable{
