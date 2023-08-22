@@ -16,7 +16,7 @@ import java.io.IOException;
  * project. This class will initialize the first window and when
  * a user clicks on a certain image, it will initialize a new window.
  *
- * @author Jaspreet Kaur, Kerimcan Baba
+ * @author Kerimcan Baba
  */
 public class ProjectFourController extends Application {
     private static Order order = new Order();
